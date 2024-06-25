@@ -1,0 +1,31 @@
+h1 {
+    color: aqua; 
+    background-color: black; 
+    text-align: center;
+} 
+h2 {
+    color:blue; 
+    background-color: brown;
+} 
+p {
+    text-decoration-color: blue;
+} 
+body { 
+    display: flex; 
+    flex-direction: column;
+
+} 
+main { 
+    display: flex; 
+    flex-direction: row; 
+    flex: auto;
+
+} 
+article {
+    flex: 2; 
+    overflow-y: auto;
+} 
+aside {
+    flex: 1; 
+    overflow-y: auto;
+}
